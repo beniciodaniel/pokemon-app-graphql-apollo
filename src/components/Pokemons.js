@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const Pokemon = ( { pokemon }) => {
-  const { id, name, image, maxHP, maxCP, attacks } = pokemon;
+  const { name, image, maxHP, maxCP, attacks } = pokemon;
 
   return (
     <div className="pokemon">
